@@ -32,3 +32,10 @@ PaidHR (paidhr.com): HR and payroll platform for African businesses. Full summar
 ## Tools
 - Miro (MCP, via the miro plugin): for diagrams, such as GTM system maps and workflow flows.
 - Notion (MCP): where we publish finished docs. GitHub stays the source of truth, so edit here first, then publish to Notion (ask first, per rule 4).
+
+## Skills
+From github.com/bolaji-ships/gtm-starter-kit. Each lives in `.claude/skills/<name>/SKILL.md`.
+- Research to copy, in order: `campaign-strategy`, `signal-matrix`, `build-workflow-spec`, `campaign-copy`, then `miro-gtm-flowchart` to draw the system.
+- Clay builds (use `tools/rex`): `build-clay`, `prompt-builder`, `campaign-contract`, `design-clay-table-json`, `import-clay-table`, `save-clay-schema`.
+- Clay costs and data: `calculate-costs`, `workspace-cost-audit`, `export-tables`. Pre-launch QA: `campaign-qa`.
+- Research and deliverability: `crawl4ai`, `agent-browser`, `inbox-placement-test`.
