@@ -30,3 +30,5 @@ PaidHR (paidhr.com): HR and payroll platform for African businesses. Full summar
 5. Log every change in this week's work log (`work-log/YYYY-Www.md`) with a timestamp.
 
 ## Tools
+- Miro (MCP, via the miro plugin): for diagrams, such as GTM system maps and workflow flows.
+- Notion (MCP): where we publish finished docs. GitHub stays the source of truth, so edit here first, then publish to Notion (ask first, per rule 4).
