@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<text x="0" y="80" font-family="noto_sans" font-size="67" font-weight="bold" fill="#1a1a1a">PaidHR GTM System: outbound, end to end</text>
+<textArea x="0" y="110" width="3080" font-family="noto_sans" font-size="24" fill="#595959">Design v0.1 from context/docs/gtm-system.md. Row 1 reads left to right, row 2 right to left, row 3 left to right.</textArea>
+<rect x="40" y="200" width="3080" height="780.0" rx="12" fill="#f7f7f7" stroke="none" />
+<text x="1580" y="258" text-anchor="middle" font-family="noto_sans" font-size="33" font-weight="bold" fill="#1a1a1a">1  Find and qualify accounts</text>
+<rect x="40" y="1020.0" width="3080" height="523.0" rx="12" fill="#f7f7f7" stroke="none" />
+<text x="1580" y="1078.0" text-anchor="middle" font-family="noto_sans" font-size="33" font-weight="bold" fill="#1a1a1a">2  Pick the people and write the message</text>
+<rect x="40" y="1583.0" width="3080" height="870.0" rx="12" fill="#f7f7f7" stroke="none" />
+<text x="1580" y="1641.0" text-anchor="middle" font-family="noto_sans" font-size="33" font-weight="bold" fill="#1a1a1a">3  Send, sort replies and learn</text>
+<rect id="1A" x="100" y="530" width="300" height="170" data-shape="round_rectangle" fill="#6631d7" stroke="#6631d7" stroke-width="2" data-text-color="#ffffff" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;1A Context OS&lt;/b&gt;&lt;br&gt;ICP, personas, signal matrix, facts.md, workflow spec" />
+<rect id="1B" x="490" y="436" width="260" height="359" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-text-align="left" data-content="&lt;b&gt;1B Buying signals&lt;/b&gt;&lt;br&gt;• HR and payroll hiring&lt;br&gt;• Frontline volume hiring&lt;br&gt;• New HR or Finance leader&lt;br&gt;• Fresh funding&lt;br&gt;• Dec to Jan: annual returns" />
+<rect id="1C" x="840" y="530" width="260" height="170" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;1C Find companies&lt;/b&gt;&lt;br&gt;Employer name to domain and LinkedIn page" />
+<rect id="1D" x="1190" y="525" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;1D Real employer?&lt;/b&gt;" />
+<rect id="drop1" x="1190" y="755" width="230" height="101" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Drop: agency or no domain&lt;/b&gt;" />
+<rect id="1E" x="1510" y="452" width="260" height="327" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-text-align="left" data-content="&lt;b&gt;1E Enrich&lt;/b&gt;&lt;br&gt;• Headcount, HQ, industry&lt;br&gt;• States in job posts&lt;br&gt;• Frontline share&lt;br&gt;• HR title present&lt;br&gt;• Funding, rival tool" />
+<rect id="1F" x="1860" y="525" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;1F ICP fit?&lt;/b&gt;" />
+<rect id="drop2" x="1860" y="755" width="230" height="101" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Drop, or nurture if under 20 staff&lt;/b&gt;" />
+<rect id="1G" x="2180" y="525" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;1G In HubSpot?&lt;/b&gt;" />
+<rect id="excl" x="2180" y="755" width="230" height="129" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Exclude: customer, open deal, recent contact&lt;/b&gt;" />
+<rect id="1H" x="2500" y="525" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;1H Which segment?&lt;/b&gt;" />
+<rect id="s1" x="2820" y="300" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S1 Switchers&lt;/b&gt;&lt;br&gt;Trust and compliance" />
+<rect id="s2" x="2820" y="410" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S2 Funded startups&lt;/b&gt;&lt;br&gt;Payroll that scales" />
+<rect id="s3" x="2820" y="520" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S3 Multi-state, cross-border&lt;/b&gt;&lt;br&gt;Every state remitted" />
+<rect id="s4" x="2820" y="630" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S4 Frontline-heavy&lt;/b&gt;&lt;br&gt;EWA retention" />
+<rect id="s5" x="2820" y="740" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S5 HR-led SME&lt;/b&gt;&lt;br&gt;One platform, fewer chases" />
+<rect id="s6" x="2820" y="850" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;S6 Owner-run SME&lt;/b&gt;&lt;br&gt;Stop running payroll yourself" />
+<rect id="2A" x="2820" y="1120" width="260" height="264" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-text-align="left" data-content="&lt;b&gt;2A Find people&lt;/b&gt;&lt;br&gt;• Up to 2 per account&lt;br&gt;• HR lead and CEO&lt;br&gt;• Finance lead at 100+&lt;br&gt;• S6: CEO only" />
+<rect id="2B" x="2470" y="1167" width="260" height="170" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;2B Find and verify email&lt;/b&gt;&lt;br&gt;Waterfall of providers, then verify" />
+<rect id="2C" x="2150" y="1162" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;2C Email valid?&lt;/b&gt;" />
+<rect id="li" x="2150" y="1392" width="230" height="101" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;LinkedIn-only track&lt;/b&gt;" />
+<rect id="2D" x="1760" y="1152" width="300" height="201" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;2D Personalise&lt;/b&gt;&lt;br&gt;Signal and angle into approved templates; claims only from facts.md" />
+<rect id="2E" x="1440" y="1162" width="230" height="180" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="22" data-content="&lt;b&gt;2E QA passed?&lt;/b&gt;" />
+<rect id="fix" x="1440" y="1392" width="230" height="101" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Fix copy, back to 2D&lt;/b&gt;" />
+<rect id="2F" x="1090" y="1182" width="260" height="140" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;2F Human approval&lt;/b&gt;&lt;br&gt;Rule 4: nothing sends without a yes" />
+<rect id="3A" x="100" y="1913" width="280" height="170" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3A Send the sequence&lt;/b&gt;&lt;br&gt;3 emails over about 10 days, plus LinkedIn (tool not chosen)" />
+<rect id="3B" x="470" y="1913" width="260" height="170" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3B Sort replies&lt;/b&gt;&lt;br&gt;AI tags the intent; low confidence goes to a human" />
+<rect id="o1" x="820" y="1683" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Interested&lt;/b&gt;" />
+<rect id="o2" x="820" y="1793" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Not now, gives a date&lt;/b&gt;" />
+<rect id="o3" x="820" y="1903" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Wrong person&lt;/b&gt;" />
+<rect id="o4" x="820" y="2013" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Uses a rival&lt;/b&gt;" />
+<rect id="o5" x="820" y="2123" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Unsubscribes&lt;/b&gt;" />
+<rect id="o6" x="820" y="2233" width="260" height="80" rx="12" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;No reply&lt;/b&gt;" />
+<rect id="a1" x="1170" y="1683" width="300" height="80" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Create deal, alert the rep&lt;/b&gt;" />
+<rect id="a2" x="1170" y="1793" width="300" height="80" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;Task on their date&lt;/b&gt;" />
+<rect id="a3" x="1170" y="1903" width="300" height="80" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Get the right contact, back to 2A&lt;/b&gt;" />
+<rect id="a4" x="1170" y="2013" width="300" height="80" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Nurture, recheck in 6 months&lt;/b&gt;" />
+<rect id="a5" x="1170" y="2123" width="300" height="80" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Suppress everywhere&lt;/b&gt;" />
+<rect id="a6" x="1170" y="2233" width="300" height="80" rx="12" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" data-text-color="#595959" data-font-family="noto_sans" data-font-size="19" data-content="&lt;b&gt;Wait for a new signal, back to 1B&lt;/b&gt;" />
+<rect id="3C" x="1560" y="1948" width="190" height="100" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3C Meeting booked&lt;/b&gt;" />
+<rect id="3D" x="1840" y="1948" width="190" height="100" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3D Demo done&lt;/b&gt;" />
+<rect id="3E" x="2120" y="1948" width="190" height="100" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3E Proposal&lt;/b&gt;" />
+<rect id="3F" x="2400" y="1948" width="190" height="100" rx="12" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" data-text-color="#1a1a1a" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3F Won or lost&lt;/b&gt;&lt;br&gt;Wins seed lookalikes" />
+<rect id="3G" x="2680" y="2143" width="320" height="170" data-shape="round_rectangle" fill="#6631d7" stroke="#6631d7" stroke-width="2" data-text-color="#ffffff" data-font-family="noto_sans" data-font-size="21" data-content="&lt;b&gt;3G Weekly review&lt;/b&gt;&lt;br&gt;Meeting rate by signal, segment and angle; keep, change angle or kill" />
+<rect x="220" y="2322" width="443" height="36" rx="62" fill="#6631d7" stroke="#6631d7" stroke-width="2" data-text-color="#ffffff" data-font-family="noto_sans" data-font-size="17" data-font-weight="bold" data-content="Weekly loop: results update the Context OS" />
+<text x="3220" y="230" font-family="noto_sans" font-size="24" font-weight="bold" fill="#1a1a1a">Key</text>
+<rect x="3220" y="250" width="60" height="36" data-shape="round_rectangle" fill="#6631d7" stroke="#6631d7" stroke-width="2" />
+<text x="3300" y="276" font-family="noto_sans" font-size="20" fill="#595959">Start or review</text>
+<rect x="3220" y="302" width="60" height="36" data-shape="rectangle" fill="#dedaff" stroke="#8f7fee" stroke-width="2" />
+<text x="3300" y="328" font-family="noto_sans" font-size="20" fill="#595959">Step</text>
+<rect x="3220" y="354" width="60" height="36" data-shape="rhombus" fill="#fff6b6" stroke="#ffdc4a" stroke-width="2" />
+<text x="3300" y="380" font-family="noto_sans" font-size="20" fill="#595959">Decision</text>
+<rect x="3220" y="406" width="60" height="36" data-shape="rectangle" fill="#c6dcff" stroke="#659df2" stroke-width="2" />
+<text x="3300" y="432" font-family="noto_sans" font-size="20" fill="#595959">Branch or outcome</text>
+<rect x="3220" y="458" width="60" height="36" data-shape="rectangle" fill="#ffffff" stroke="#b0b0b0" stroke-width="2" />
+<text x="3300" y="484" font-family="noto_sans" font-size="20" fill="#595959">Exit or fallback</text>
+<g data-group="">
+<rect x="106" y="512" width="288" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1H3p2Jb7qCm_Lekja6MD70TNcEkOn43Hz" x="120" y="519" width="22" height="22" />
+<image href="https://lh3.googleusercontent.com/d/18gZYM4j-KI8qsNUrHk1z9QZxUvHNRvnu" x="146" y="519" width="22" height="22" />
+<text x="176" y="535" data-width="244" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Claude Code + GitHub</text>
+</g>
+<g data-group="">
+<rect x="558" y="418" width="186" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/15VWDwfJhdHviy-VnCqZkZO4DEFflmHEk" x="572" y="424" width="22" height="22" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="598" y="424" width="22" height="22" />
+<text x="628" y="440" data-width="142" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">n8n + Clay</text>
+</g>
+<g data-group="">
+<rect x="995" y="512" width="99" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="1009" y="519" width="22" height="22" />
+<text x="1039" y="535" data-width="81" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Clay</text>
+</g>
+<g data-group="">
+<rect x="1665" y="434" width="99" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="1679" y="440" width="22" height="22" />
+<text x="1709" y="456" data-width="81" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Clay</text>
+</g>
+<g data-group="">
+<rect x="2975" y="1102" width="99" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="2989" y="1109" width="22" height="22" />
+<text x="3019" y="1125" data-width="81" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Clay</text>
+</g>
+<g data-group="">
+<rect x="2625" y="1149" width="99" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="2639" y="1156" width="22" height="22" />
+<text x="2669" y="1172" data-width="81" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Clay</text>
+</g>
+<g data-group="">
+<rect x="1837" y="1134" width="217" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/17p9VTOfRU57ZcgMJoK6waiXiwp8fFMIM" x="1851" y="1140" width="22" height="22" />
+<image href="https://lh3.googleusercontent.com/d/1H3p2Jb7qCm_Lekja6MD70TNcEkOn43Hz" x="1877" y="1140" width="22" height="22" />
+<text x="1907" y="1156" data-width="173" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Clay + Claude</text>
+</g>
+<g data-group="">
+<rect x="1174" y="1164" width="170" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1H3p2Jb7qCm_Lekja6MD70TNcEkOn43Hz" x="1188" y="1171" width="22" height="22" />
+<text x="1218" y="1187" data-width="152" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Claude Code</text>
+</g>
+<g data-group="">
+<rect x="234" y="1895" width="140" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1Iij8_D6KxJSdNYrCVqbrbIaqB3fF-KTO" x="248" y="1902" width="22" height="22" />
+<text x="278" y="1918" data-width="122" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">PlusVibe</text>
+</g>
+<g data-group="">
+<rect x="518" y="1895" width="206" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/15VWDwfJhdHviy-VnCqZkZO4DEFflmHEk" x="532" y="1902" width="22" height="22" />
+<image href="https://lh3.googleusercontent.com/d/1H3p2Jb7qCm_Lekja6MD70TNcEkOn43Hz" x="558" y="1902" width="22" height="22" />
+<text x="588" y="1918" data-width="162" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">n8n + Claude</text>
+</g>
+<g data-group="">
+<rect x="1335" y="1665" width="129" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1SEB69b4BJiKnQqRjOFNUidiDFcDeCwrE" x="1349" y="1672" width="22" height="22" />
+<text x="1379" y="1688" data-width="111" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">HubSpot</text>
+</g>
+<g data-group="">
+<rect x="1335" y="1775" width="129" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1SEB69b4BJiKnQqRjOFNUidiDFcDeCwrE" x="1349" y="1782" width="22" height="22" />
+<text x="1379" y="1798" data-width="111" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">HubSpot</text>
+</g>
+<g data-group="">
+<rect x="1615" y="1930" width="129" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1SEB69b4BJiKnQqRjOFNUidiDFcDeCwrE" x="1629" y="1937" width="22" height="22" />
+<text x="1659" y="1953" data-width="111" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">HubSpot</text>
+</g>
+<g data-group="">
+<rect x="2706" y="2125" width="288" height="36" rx="62" fill="#ffffff" stroke="#1a1a1a" stroke-width="2" />
+<image href="https://lh3.googleusercontent.com/d/1H3p2Jb7qCm_Lekja6MD70TNcEkOn43Hz" x="2720" y="2132" width="22" height="22" />
+<image href="https://lh3.googleusercontent.com/d/18gZYM4j-KI8qsNUrHk1z9QZxUvHNRvnu" x="2746" y="2132" width="22" height="22" />
+<text x="2776" y="2148" data-width="244" font-family="noto_sans" font-size="16" font-weight="bold" fill="#1a1a1a">Claude Code + GitHub</text>
+</g>
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1A" data-end="1B" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1B" data-end="1C" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1C" data-end="1D" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1D" data-end="1E" data-start-side="right" data-end-side="left" data-content="Yes" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1D" data-end="drop1" data-start-side="bottom" data-end-side="top" data-content="No" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1E" data-end="1F" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1F" data-end="1G" data-start-side="right" data-end-side="left" data-content="Yes" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1F" data-end="drop2" data-start-side="bottom" data-end-side="top" data-content="No" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1G" data-end="1H" data-start-side="right" data-end-side="left" data-content="No" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1G" data-end="excl" data-start-side="bottom" data-end-side="top" data-content="Yes" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s1" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s2" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s3" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s4" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s5" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="1H" data-end="s6" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s1" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s2" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s3" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s4" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s5" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="s6" data-end="2A" data-start-side="bottom" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2A" data-end="2B" data-start-side="left" data-end-side="right" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2B" data-end="2C" data-start-side="left" data-end-side="right" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2C" data-end="2D" data-start-side="left" data-end-side="right" data-content="Yes" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2C" data-end="li" data-start-side="bottom" data-end-side="top" data-content="No" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2D" data-end="2E" data-start-side="left" data-end-side="right" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2E" data-end="2F" data-start-side="left" data-end-side="right" data-content="Yes" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2E" data-end="fix" data-start-side="bottom" data-end-side="top" data-content="No" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="2F" data-end="3A" data-start-side="left" data-end-side="top" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3A" data-end="3B" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o1" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o2" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o3" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o4" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o5" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3B" data-end="o6" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o1" data-end="a1" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o2" data-end="a2" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o3" data-end="a3" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o4" data-end="a4" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o5" data-end="a5" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="o6" data-end="a6" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="a1" data-end="3C" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3C" data-end="3D" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3D" data-end="3E" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3E" data-end="3F" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#313131" stroke-width="2" data-arrow="end" data-shape="elbowed" data-start="3F" data-end="3G" data-start-side="right" data-end-side="left" />
+<line x1="0" y1="0" x2="1" y2="1" stroke="#6631d7" stroke-width="4" data-arrow="end" data-shape="elbowed" data-start="3G" data-end="1A" data-start-side="bottom" data-end-side="left" />
+</svg>

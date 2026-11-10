@@ -2,9 +2,9 @@
 
 The ONLY source of names, numbers and claims for prospect-facing copy (`/campaign-copy` FACTS GATE). Anything not listed here renders as `{{placeholder}}`. Built only from `context/docs/research/`, from the template in `knowledge-base/playbooks/templates/facts-template.md`.
 
-**Status: DRAFT.** Nothing below is approved yet. Every "Approved by" cell is pending sign-off from the PaidHR GTM lead.
+**Status: APPROVED 2026-11-10** by the PaidHR GTM team (claims, proof names, bans). Sender identity, voice gaps and the CTA ladder are still open.
 
-**Last updated:** 2026-11-09 by Claude (draft for review)
+**Last updated:** 2026-11-10, approval recorded by Claude
 
 ---
 
@@ -24,21 +24,21 @@ The ONLY source of names, numbers and claims for prospect-facing copy (`/campaig
 
 Product one-liner (context, not copy): HR, payroll, statutory remittance and employee finance (EWA, Loan Marketplace) in one platform, Lagos-based, tiers from 20 employees. Source: research/company.md.
 
-## Approved claims and numbers (proposed)
+## Approved claims and numbers
 
 | Claim | Proposed phrasing | Source | Approved by / date |
 |---|---|---|---|
-| 2025 remittance record | "₦934M in PAYE filed and ₦754M in pension processed in 2025, all on time" | https://www.paidhr.com/ (research/company.md) | Pending |
-| No defaults | "zero statutory defaults or delays" | https://www.paidhr.com/ | Pending |
-| 2026 payroll volume | "₦119.2bn in payroll processed in 2026 so far" (as at 2026-11-09; recheck before each use) | https://www.paidhr.com/ | Pending |
-| Tax law readiness | "updated for Nigeria's new tax law, effective 1 January 2026" | https://www.paidhr.com/ | Pending |
-| Security | "ISO 27001 certified and NDPA registered" | https://www.paidhr.com/ | Pending |
-| EWA cost to employer | "at no cost to your company"; "you do not fund the advances" | https://www.paidhr.com/earned-wage-access-pade/employers/ | Pending |
-| EWA usage | "over ₦400m disbursed through Earned Wage Access" | https://www.paidhr.com/earned-wage-access-pade/employers/ | Pending |
-| Famasi result | "Famasi's CEO cut payroll and remittances to under 5 minutes" | https://report.paidhr.com/yir-2024 | Pending |
-| Funding | "backed by Accion Venture Lab" ($1.8M seed, 2025) | https://www.accion.org/news/paidhr-raises-1-8m-seed-round-led-by-accion-venture-lab-to-boost-africas-growing-workforce/ | Pending |
-| Multi-state | "handles multi-state payroll and remits taxes and pensions in different states" | https://www.paidhr.com/platform/payroll/ | Pending |
-| Market fact: NTA dates | "new PAYE bands apply from 1 January 2026" | DLA Piper (research/market.md) | Pending |
+| 2025 remittance record | "₦934M in PAYE filed and ₦754M in pension processed in 2025, all on time" | https://www.paidhr.com/ (research/company.md) | GTM team, 2026-11-10 |
+| No defaults | "zero statutory defaults or delays" | https://www.paidhr.com/ | GTM team, 2026-11-10 |
+| 2026 payroll volume | "₦119.2bn in payroll processed in 2026 so far" (as at 2026-11-09; recheck before each use) | https://www.paidhr.com/ | GTM team, 2026-11-10 |
+| Tax law readiness | "updated for Nigeria's new tax law, effective 1 January 2026" | https://www.paidhr.com/ | GTM team, 2026-11-10 |
+| Security | "ISO 27001 certified and NDPA registered" | https://www.paidhr.com/ | GTM team, 2026-11-10 |
+| EWA cost to employer | "at no cost to your company"; "you do not fund the advances" | https://www.paidhr.com/earned-wage-access-pade/employers/ | GTM team, 2026-11-10 |
+| EWA usage | "over ₦400m disbursed through Earned Wage Access" | https://www.paidhr.com/earned-wage-access-pade/employers/ | GTM team, 2026-11-10 |
+| Famasi result | "Famasi's CEO cut payroll and remittances to under 5 minutes" | https://report.paidhr.com/yir-2024 | GTM team, 2026-11-10 |
+| Funding | "backed by Accion Venture Lab" ($1.8M seed, 2025) | https://www.accion.org/news/paidhr-raises-1-8m-seed-round-led-by-accion-venture-lab-to-boost-africas-growing-workforce/ | GTM team, 2026-11-10 |
+| Multi-state | "handles multi-state payroll and remits taxes and pensions in different states" | https://www.paidhr.com/platform/payroll/ | GTM team, 2026-11-10 |
+| Market fact: NTA dates | "new PAYE bands apply from 1 January 2026" | DLA Piper (research/market.md) | GTM team, 2026-11-10 |
 
 **Formatting rules for proof**
 - Write "PaidHR" and "Famasi" exactly.
@@ -54,7 +54,7 @@ Product one-liner (context, not copy): HR, payroll, statutory remittance and emp
 - "Zero churn": unverified.
 - NTA penalty percentages: law-firm commentary, not statute.
 
-## Authorized social-proof names (proposed)
+## Authorized social-proof names
 
 | Name | What it proves | Matches | Caveat |
 |---|---|---|---|

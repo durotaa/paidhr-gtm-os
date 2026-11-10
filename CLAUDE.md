@@ -9,7 +9,7 @@ PaidHR (paidhr.com, formerly Pade HCM): Lagos-based HR and payroll platform for 
 - `context/positioning/`: `positioning.md`, `value-proposition.md`, `competitors.md`. Read before writing messaging or comparing PaidHR to others.
 - `context/messaging/`: `messaging.md` (core message, pillars, angles, words), `facts.md` (the only source of names, numbers and claims for copy). Read before writing any copy.
 - `context/brand-kit/`: `brand.md` (tone and key phrases from PaidHR copy). Read before producing anything customer facing.
-- `context/docs/`: `case-studies.md` (every customer story with source). Read before citing a customer.
+- `context/docs/`: `case-studies.md` (every customer story with source), `gtm-system.md` (outbound system design, steps, tools, decisions; chart in `diagrams/`). Read before citing a customer or building a workflow.
 - `context/docs/research/`: raw research notes with sources (company, customers, customer-videos, competitors, market, signals, voice). Read when you need to verify or cite a company fact.
 - `knowledge-base/playbooks/`: step by step GTM workflows. Read before running or speccing a workflow.
 - `knowledge-base/learnings/`: what worked, what didn't, and why. Read before planning a new campaign.

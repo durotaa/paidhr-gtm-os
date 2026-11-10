@@ -1,0 +1,585 @@
+{
+ "title": "PaidHR GTM System: outbound, end to end",
+ "subtitle": "Design v0.1 from context/docs/gtm-system.md. Row 1 reads left to right, row 2 right to left, row 3 left to right.",
+ "rows": [
+  {
+   "title": "Find and qualify accounts",
+   "direction": "ltr",
+   "columns": [
+    "1A",
+    "1B",
+    "1C",
+    "1D",
+    "1E",
+    "1F",
+    "1G",
+    "1H",
+    [
+     "s1",
+     "s2",
+     "s3",
+     "s4",
+     "s5",
+     "s6"
+    ]
+   ]
+  },
+  {
+   "title": "Pick the people and write the message",
+   "direction": "rtl",
+   "columns": [
+    "2A",
+    "2B",
+    "2C",
+    "2D",
+    "2E",
+    "2F"
+   ]
+  },
+  {
+   "title": "Send, sort replies and learn",
+   "direction": "ltr",
+   "columns": [
+    "3A",
+    "3B",
+    [
+     "o1",
+     "o2",
+     "o3",
+     "o4",
+     "o5",
+     "o6"
+    ],
+    [
+     "a1",
+     "a2",
+     "a3",
+     "a4",
+     "a5",
+     "a6"
+    ],
+    "3C",
+    "3D",
+    "3E",
+    "3F",
+    "3G"
+   ]
+  }
+ ],
+ "nodes": {
+  "1A": {
+   "kind": "start",
+   "title": "Context OS",
+   "sub": "ICP, personas, signal matrix, facts.md, workflow spec",
+   "tools": [
+    "claude_code",
+    "github"
+   ],
+   "w": 300
+  },
+  "1B": {
+   "kind": "step",
+   "title": "Buying signals",
+   "sub": [
+    "HR and payroll hiring",
+    "Frontline volume hiring",
+    "New HR or Finance leader",
+    "Fresh funding",
+    "Dec to Jan: annual returns"
+   ],
+   "tools": [
+    "n8n",
+    "clay"
+   ]
+  },
+  "1C": {
+   "kind": "step",
+   "title": "Find companies",
+   "sub": "Employer name to domain and LinkedIn page",
+   "tools": [
+    "clay"
+   ]
+  },
+  "1D": {
+   "kind": "decision",
+   "title": "Real employer?"
+  },
+  "drop1": {
+   "kind": "exit",
+   "title": "Drop: agency or no domain",
+   "below": "1D",
+   "w": 230
+  },
+  "1E": {
+   "kind": "step",
+   "title": "Enrich",
+   "sub": [
+    "Headcount, HQ, industry",
+    "States in job posts",
+    "Frontline share",
+    "HR title present",
+    "Funding, rival tool"
+   ],
+   "tools": [
+    "clay"
+   ]
+  },
+  "1F": {
+   "kind": "decision",
+   "title": "ICP fit?"
+  },
+  "drop2": {
+   "kind": "exit",
+   "title": "Drop, or nurture if under 20 staff",
+   "below": "1F",
+   "w": 230
+  },
+  "1G": {
+   "kind": "decision",
+   "title": "In HubSpot?"
+  },
+  "excl": {
+   "kind": "exit",
+   "title": "Exclude: customer, open deal, recent contact",
+   "below": "1G",
+   "w": 230
+  },
+  "1H": {
+   "kind": "decision",
+   "title": "Which segment?"
+  },
+  "s1": {
+   "kind": "branch",
+   "title": "S1 Switchers",
+   "sub": "Trust and compliance",
+   "h": 80
+  },
+  "s2": {
+   "kind": "branch",
+   "title": "S2 Funded startups",
+   "sub": "Payroll that scales",
+   "h": 80
+  },
+  "s3": {
+   "kind": "branch",
+   "title": "S3 Multi-state, cross-border",
+   "sub": "Every state remitted",
+   "h": 80
+  },
+  "s4": {
+   "kind": "branch",
+   "title": "S4 Frontline-heavy",
+   "sub": "EWA retention",
+   "h": 80
+  },
+  "s5": {
+   "kind": "branch",
+   "title": "S5 HR-led SME",
+   "sub": "One platform, fewer chases",
+   "h": 80
+  },
+  "s6": {
+   "kind": "branch",
+   "title": "S6 Owner-run SME",
+   "sub": "Stop running payroll yourself",
+   "h": 80
+  },
+  "2A": {
+   "kind": "step",
+   "title": "Find people",
+   "sub": [
+    "Up to 2 per account",
+    "HR lead and CEO",
+    "Finance lead at 100+",
+    "S6: CEO only"
+   ],
+   "tools": [
+    "clay"
+   ]
+  },
+  "2B": {
+   "kind": "step",
+   "title": "Find and verify email",
+   "sub": "Waterfall of providers, then verify",
+   "tools": [
+    "clay"
+   ]
+  },
+  "2C": {
+   "kind": "decision",
+   "title": "Email valid?"
+  },
+  "li": {
+   "kind": "exit",
+   "title": "LinkedIn-only track",
+   "below": "2C",
+   "w": 230
+  },
+  "2D": {
+   "kind": "step",
+   "title": "Personalise",
+   "sub": "Signal and angle into approved templates; claims only from facts.md",
+   "tools": [
+    "clay",
+    "claude"
+   ],
+   "w": 300
+  },
+  "2E": {
+   "kind": "decision",
+   "title": "QA passed?"
+  },
+  "fix": {
+   "kind": "exit",
+   "title": "Fix copy, back to 2D",
+   "below": "2E",
+   "w": 230
+  },
+  "2F": {
+   "kind": "step",
+   "title": "Human approval",
+   "sub": "Rule 4: nothing sends without a yes",
+   "tools": [
+    "claude_code"
+   ]
+  },
+  "3A": {
+   "kind": "step",
+   "title": "Send the sequence",
+   "sub": "3 emails over about 10 days, plus LinkedIn (tool not chosen)",
+   "tools": [
+    "plusvibe"
+   ],
+   "w": 280
+  },
+  "3B": {
+   "kind": "step",
+   "title": "Sort replies",
+   "sub": "AI tags the intent; low confidence goes to a human",
+   "tools": [
+    "n8n",
+    "claude"
+   ]
+  },
+  "o1": {
+   "kind": "branch",
+   "title": "Interested",
+   "h": 80
+  },
+  "o2": {
+   "kind": "branch",
+   "title": "Not now, gives a date",
+   "h": 80
+  },
+  "o3": {
+   "kind": "branch",
+   "title": "Wrong person",
+   "h": 80
+  },
+  "o4": {
+   "kind": "branch",
+   "title": "Uses a rival",
+   "h": 80
+  },
+  "o5": {
+   "kind": "branch",
+   "title": "Unsubscribes",
+   "h": 80
+  },
+  "o6": {
+   "kind": "branch",
+   "title": "No reply",
+   "h": 80
+  },
+  "a1": {
+   "kind": "step",
+   "title": "Create deal, alert the rep",
+   "w": 300,
+   "h": 80,
+   "tools": [
+    "hubspot"
+   ]
+  },
+  "a2": {
+   "kind": "step",
+   "title": "Task on their date",
+   "w": 300,
+   "h": 80,
+   "tools": [
+    "hubspot"
+   ]
+  },
+  "a3": {
+   "kind": "exit",
+   "title": "Get the right contact, back to 2A",
+   "w": 300,
+   "h": 80
+  },
+  "a4": {
+   "kind": "exit",
+   "title": "Nurture, recheck in 6 months",
+   "w": 300,
+   "h": 80
+  },
+  "a5": {
+   "kind": "exit",
+   "title": "Suppress everywhere",
+   "w": 300,
+   "h": 80
+  },
+  "a6": {
+   "kind": "exit",
+   "title": "Wait for a new signal, back to 1B",
+   "w": 300,
+   "h": 80
+  },
+  "3C": {
+   "kind": "step",
+   "title": "Meeting booked",
+   "w": 190,
+   "h": 100,
+   "tools": [
+    "hubspot"
+   ]
+  },
+  "3D": {
+   "kind": "step",
+   "title": "Demo done",
+   "w": 190,
+   "h": 100
+  },
+  "3E": {
+   "kind": "step",
+   "title": "Proposal",
+   "w": 190,
+   "h": 100
+  },
+  "3F": {
+   "kind": "step",
+   "title": "Won or lost",
+   "sub": "Wins seed lookalikes",
+   "w": 190,
+   "h": 100
+  },
+  "3G": {
+   "kind": "start",
+   "title": "Weekly review",
+   "sub": "Meeting rate by signal, segment and angle; keep, change angle or kill",
+   "tools": [
+    "claude_code",
+    "github"
+   ],
+   "w": 320,
+   "align": "bottom"
+  }
+ },
+ "edges": [
+  [
+   "1A",
+   "1B"
+  ],
+  [
+   "1B",
+   "1C"
+  ],
+  [
+   "1C",
+   "1D"
+  ],
+  [
+   "1D",
+   "1E",
+   "Yes"
+  ],
+  [
+   "1D",
+   "drop1",
+   "No"
+  ],
+  [
+   "1E",
+   "1F"
+  ],
+  [
+   "1F",
+   "1G",
+   "Yes"
+  ],
+  [
+   "1F",
+   "drop2",
+   "No"
+  ],
+  [
+   "1G",
+   "1H",
+   "No"
+  ],
+  [
+   "1G",
+   "excl",
+   "Yes"
+  ],
+  [
+   "1H",
+   "s1"
+  ],
+  [
+   "1H",
+   "s2"
+  ],
+  [
+   "1H",
+   "s3"
+  ],
+  [
+   "1H",
+   "s4"
+  ],
+  [
+   "1H",
+   "s5"
+  ],
+  [
+   "1H",
+   "s6"
+  ],
+  [
+   "s1",
+   "2A"
+  ],
+  [
+   "s2",
+   "2A"
+  ],
+  [
+   "s3",
+   "2A"
+  ],
+  [
+   "s4",
+   "2A"
+  ],
+  [
+   "s5",
+   "2A"
+  ],
+  [
+   "s6",
+   "2A"
+  ],
+  [
+   "2A",
+   "2B"
+  ],
+  [
+   "2B",
+   "2C"
+  ],
+  [
+   "2C",
+   "2D",
+   "Yes"
+  ],
+  [
+   "2C",
+   "li",
+   "No"
+  ],
+  [
+   "2D",
+   "2E"
+  ],
+  [
+   "2E",
+   "2F",
+   "Yes"
+  ],
+  [
+   "2E",
+   "fix",
+   "No"
+  ],
+  [
+   "2F",
+   "3A"
+  ],
+  [
+   "3A",
+   "3B"
+  ],
+  [
+   "3B",
+   "o1"
+  ],
+  [
+   "3B",
+   "o2"
+  ],
+  [
+   "3B",
+   "o3"
+  ],
+  [
+   "3B",
+   "o4"
+  ],
+  [
+   "3B",
+   "o5"
+  ],
+  [
+   "3B",
+   "o6"
+  ],
+  [
+   "o1",
+   "a1"
+  ],
+  [
+   "o2",
+   "a2"
+  ],
+  [
+   "o3",
+   "a3"
+  ],
+  [
+   "o4",
+   "a4"
+  ],
+  [
+   "o5",
+   "a5"
+  ],
+  [
+   "o6",
+   "a6"
+  ],
+  [
+   "a1",
+   "3C"
+  ],
+  [
+   "3C",
+   "3D"
+  ],
+  [
+   "3D",
+   "3E"
+  ],
+  [
+   "3E",
+   "3F"
+  ],
+  [
+   "3F",
+   "3G"
+  ]
+ ],
+ "loop": {
+  "from": "3G",
+  "to": "1A",
+  "label": "Weekly loop: results update the Context OS"
+ }
+}
