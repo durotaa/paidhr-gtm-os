@@ -5,7 +5,7 @@ PaidHR (paidhr.com, formerly Pade HCM): Lagos-based HR and payroll platform for 
 
 ## How this folder works
 - `.claude/skills/`: reusable Claude skills for repeat GTM tasks. Read when a task matches a skill.
-- `context/icp/`: `icp.md` (five-layer ICP, not-a-fit), `personas.md` (champion, economic buyer, influencer). Read before any targeting, list building or copy.
+- `context/icp/`: `icp.md` (five-layer ICP, not-a-fit), `personas.md` (champion, economic buyer, influencer), `signal-matrix.md` (segments x personas, signals, build order). Read before any targeting, list building or copy.
 - `context/positioning/`: `positioning.md`, `value-proposition.md`, `competitors.md`. Read before writing messaging or comparing PaidHR to others.
 - `context/messaging/`: `messaging.md` (core message, pillars, angles, words), `facts.md` (the only source of names, numbers and claims for copy). Read before writing any copy.
 - `context/brand-kit/`: `brand.md` (tone and key phrases from PaidHR copy). Read before producing anything customer facing.

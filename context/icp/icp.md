@@ -4,14 +4,32 @@ Built only from `context/docs/research/` (checked 2026-11-09). Source tags: **[c
 
 ## 1. Firmographic
 
-| Attribute | Fit | Source |
+The evidence supports only two hard filters, so firmographics alone give a broad list ("Nigerian employer, 20+ staff"). Layers 2 and 3 do the narrowing.
+
+**Hard filters (use to build the list)**
+
+| Filter | Why | Source |
 |---|---|---|
-| HQ / payroll country | Nigeria first. Also operating in Kenya, Ghana, South Africa (CEO claim), mostly via cross-border | [co] Markets |
-| Headcount | 20 to 100 (Standard tier) and 100+ (Enterprise tier). Average customer about 60 employees (INFERRED from homepage's own 25,000+ employees / 400+ businesses) | [co] Pricing, [cu] Company sizes |
-| Industries | Logistics, retail, manufacturing, financial services / banking. Named customers also in pharmacy/health, media, fintech, non-profit | [cu] Industries, Named customers |
-| Workforce | Many lower-paid staff (46 of 100 formal workers earn under ₦200,000/month); shift or field teams (Time & Attendance) | [mk] Market structure, [co] Modules |
-| Footprint | Multi-state Nigeria, or staff/contractors paid in other currencies | [sg] Expansion |
-| Stage | Growing SMEs to mid-market; funded startups appear among customers (Famasi) | [cu], [sg] Funding |
+| Runs payroll in Nigeria | Statutory remittance evidence is Nigeria only (PAYE, pension, NHF, NSITF). Every named customer with a known country is Nigerian | [co] Modules, [cu] Named customers |
+| 20+ employees | Lowest published tier is "20 - 100 Employees" | [co] Pricing |
+
+**Ranking boosts (product fit, no customer proof yet)**
+
+| Boost | Why | Source |
+|---|---|---|
+| Staff in more than one Nigerian state | Payroll page claims multi-state tax and pension remittance | [co] Modules |
+| Shift or field staff | Time & Attendance module | [co] Modules |
+| Staff or contractors paid in other currencies | Cross Border by PaidHR | [co], [sg] Expansion |
+
+**Claimed, not proven: do not target on these yet**
+
+| Claim | Problem | Source |
+|---|---|---|
+| Industries: "logistics, retail, manufacturing, and financial services" | Comes from seed-round press (Launch Base; Nairametrics says "banking"), so it is PaidHR's pitch. Named customers are pharmacy (Famasi), shipping (Heroshe), media and fintech (INFERRED) and a non-profit; none in retail or manufacturing. No vertical focus shown (INFERRED) | [cu] Industries, Named customers |
+| Kenya, Ghana, South Africa | CEO claim only; Launch Base omits Ghana; no customers there found | [co] Markets, Gaps |
+| 100+ employees / "enterprise" | Enterprise tier exists ("Everything in Standard + Dedicated support"), but no named customer's headcount was found | [co] Pricing, [cu] Company sizes |
+
+Removed: the "average customer about 60 employees" estimate (built from homepage counts that conflict, see facts.md), the low-wage workforce statistic (true of the whole market, so it filters nothing) and the "growing SMEs to mid-market" stage line (no evidence behind it).
 
 ## 2. Technographic
 
@@ -72,3 +90,4 @@ INFERRED tiers, built from [sg]. Not yet validated against deals.
 - Upper size limit: homepage says "African enterprises"; Xceed365HR owns 500+. Does PaidHR win at 500+? [co], [cp]
 - Kenya / Ghana / South Africa: customer counts and local compliance support not found. [co] Gaps
 - Which signals actually came before closed deals: needs CRM data. [sg] Gaps
+- Best-fit industry and headcount band: needs closed-won data from the CRM (industry, employees, deal size, win rate). Until then the industry and size claims above stay unproven. [cu] Company sizes
