@@ -32,7 +32,7 @@ PaidHR (paidhr.com, formerly Pade HCM): Lagos-based HR and payroll platform for 
 
 ## Tools
 - Miro (MCP, via the miro plugin): for diagrams, such as GTM system maps and workflow flows.
-- Notion (MCP): where we publish finished docs. GitHub stays the source of truth, so edit here first, then publish to Notion (ask first, per rule 4).
+- Notion (MCP): where we publish finished docs. GitHub stays the source of truth, so edit here first, then publish to Notion (ask first, per rule 4). Published Context OS: [PaidHR GTM OS](https://app.notion.com/p/415795dde8a681b69e3fdc480dc047ab) (Context and Campaigns pages mirror `context/` and `output/campaigns/`; raw research is not published).
 - Google Workspace CLI (`gws`, see `tools/gws/README.md`): read and write Sheets, Drive, Docs, Gmail and Calendar from the terminal. Use `--dry-run` and ask before anything that sends or shares.
 
 ## Skills
